@@ -10,18 +10,18 @@
     "report": "mocha \"test/**/*.test.js\" --reporter mochawesome"
   },
   "c8": {
-  "include": [
-    "src/add.js",
-    "src/chunk.js",
-    "src/filter.js",
-    "src/isEmpty.js",
-    "src/reduce.js",
-    "src/slice.js",
-    "src/toInteger.js",
-    "src/toNumber.js",
-    "src/upperFirst.js",
-    "src/words.js"
-  ]
+    "include": [
+      "src/add.js",
+      "src/chunk.js",
+      "src/filter.js",
+      "src/isEmpty.js",
+      "src/reduce.js",
+      "src/slice.js",
+      "src/toInteger.js",
+      "src/toNumber.js",
+      "src/upperFirst.js",
+      "src/words.js"
+    ]
   },
   "author": "",
   "license": "MIT",
