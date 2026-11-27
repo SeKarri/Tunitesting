@@ -11,3 +11,11 @@ and LICENSE file.
 Source code folder contains a separate license file that must **NOT** be removed under any circumstances!
 Removing this license file directly violates terms and conditions of the software under testing.
 Individuals who remove or modify the license file will also carry the consequences.
+
+
+# Student additions:
+How to run:
+npm install --save-dev mocha chai mochawesome nyc
+npx mocha
+
+Tried to run tests with only the 10 functions in src folder, but dependencies made this impossible, returned all functions to src folder.
