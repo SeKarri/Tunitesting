@@ -9,15 +9,19 @@
     "coverage": "c8 mocha \"test/**/*.test.js\"",
     "report": "mocha \"test/**/*.test.js\" --reporter mochawesome"
   },
-  "nyc": {
-    "include": [
-      "src/**/*.js"
-    ],
-    "all": true,
-    "reporter": [
-      "text",
-      "lcov"
-    ]
+  "c8": {
+  "include": [
+    "src/add.js",
+    "src/chunk.js",
+    "src/filter.js",
+    "src/isEmpty.js",
+    "src/reduce.js",
+    "src/slice.js",
+    "src/toInteger.js",
+    "src/toNumber.js",
+    "src/upperFirst.js",
+    "src/words.js"
+  ]
   },
   "author": "",
   "license": "MIT",
