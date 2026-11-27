@@ -24,6 +24,9 @@ jobs:
         run: npm run coverage
         continue-on-error: true
 
+      - name: Fix LCOV paths
+        run: sed -i 's|\\|/|g' coverage/lcov.info
+
       - name: Coveralls
         uses: coverallsapp/github-action@v2
         with:

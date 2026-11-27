@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "mocha \"test/**/*.test.js\"",
-    "coverage": "node node_modules/c8/bin/c8.js mocha \"test/**/*.test.js\"",
+    "coverage": "node node_modules/c8/bin/c8.js --reporter=lcov --reporter=text mocha \"test/**/*.test.js\"",
     "report": "mocha \"test/**/*.test.js\" --reporter mochawesome"
   },
   "c8": {
